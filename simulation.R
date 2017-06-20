@@ -2,13 +2,15 @@
 ##
 ##  Oxford University
 ##  Mark Patrick Roeling
-##  May 2017
+##  June 2017
 ##
 ###################################
 rm(list = ls(all = TRUE))
 library(igraph)
 library(blockmodels)
-# purpose of this script is to create the SBM covariates for every node
+
+# purpose of this script is to perform a SBM simulation study on some generated edgelist.
+# runtime is < 1 min.
 
 setwd("/Users/mproeling/Downloads/ISOT_Botnet_DataSet_2010/")
 
